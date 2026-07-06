@@ -70,7 +70,7 @@ import { useCart } from '../context/CartContext';
         <div className="row align-items-center py-5">
           <div className="col-md-7 ps-md-5">
             <span className="badge bg-warning text-dark mb-3 fw-bold px-3 py-2 fs-6 rounded-pill">Mega Summer Sale! ☀️</span>
-            <h1 className="display-4 fw-bolder mb-3">Unbeatable Deals at SubahanMart!</h1>
+            <h1 className="display-4 fw-bolder mb-3">Unbeatable Deals at Subahan New Mart!</h1>
             <p className="lead mb-4 opacity-75">Premium products, unbelievable prices. Up to 50% off today only!</p>
             <button className="btn btn-light btn-lg px-5 py-3 rounded-pill fw-bold text-success shadow-sm">
               <FiShoppingBag className="me-2" /> Shop Now
