@@ -1,0 +1,25 @@
+/* Smooth hover lift for product listings */
+.product-card {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+  background: #ffffff;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(25, 135, 84, 0.15) !important;
+}
+
+/* Navbar active item custom state tracking */
+.hover-link {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.hover-link:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* Custom letter tracking for the retail brand logomark */
+.letter-spacing {
+  letter-spacing: -0.5px;
+}
